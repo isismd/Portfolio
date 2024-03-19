@@ -1,3 +1,4 @@
+import { About } from "./about";
 import { Hero } from "./hero";
 
 export const Main = () => {
@@ -6,6 +7,7 @@ export const Main = () => {
       <div id="home"></div>
       <Hero />
       <div id="about"></div>
+      <About />
       <div id="contact"></div>
     </main>
   );

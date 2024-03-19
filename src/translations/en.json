@@ -9,13 +9,16 @@
     "cvBtn": "Download CV!"
   },
   "aboutme": {
-    "Title1": "WHERE ALL STARTED",
+    "title1": "journey as a ",
+    "title2": " web ",
+    "title3": " developer",
+    "subtitle1": "where all started",
     "description1": "At 13/14 years old, my desire to explore the internet led me to create blogs and pages on Tumblr. I began studying HTML, CSS, and web design on my own, seeking to customize my pages as beautifully as possible, even without fully understanding what I was doing.",
-    "title2": "WHAT I DO NOW",
-    "description2.1": "At 19, I rediscovered my passion for technology, which led me to enroll in a Computer Science degree program around mid-2022.",
-    "description2.2": "Currently, I am interning in Software Development at the State Controller's Office of MT. Previously, I also interned as a Front-End Developer at Pagway. Additionally, I volunteer as a developer and project leader at InfoCorp.",
-    "title3": "WHO AM I NOW",
-    "description3": "I consider myself a creative person passionate about what I do. I also enjoy spending time with loved ones, going to the gym, hiking, and gaming. I always strive to balance all areas of my life so that I can dedicate time to everything I love."
+    "subtitle2": "what i do now",
+    "description2.1": "At 19, I rediscovered my passion for technology, which led me to enroll in the Bachelor of Computer Science program around mid-2022.",
+    "description2.2": "Currently, I am interning in Software Development at CGE-MT. Previously, I also interned as a Front-End Developer at Pagway. Additionally, I volunteer as a developer and project leader at InfoCorp.",
+    "subtitle3": "who am i now",
+    "description3": "I consider myself a creative person passionate about what I do. I also enjoy spending time with loved ones, going to the gym, cooking, and gaming. I always strive to balance all areas of my life so that I can dedicate time to everything I love."
   },
   "skills": {
     "small1": "when i'm not w/ my",
