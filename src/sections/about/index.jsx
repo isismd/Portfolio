@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
-import EarthGlobe from "../../public/icons/EarthGlobe.png";
+import { SlGlobeAlt } from "react-icons/sl";
+import MusicPlayer from "../../components/MusicPlayer";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -10,12 +11,8 @@ export const About = () => {
           {t("aboutme.title1")}
           <span className="inria-serif-regular-italic">
             {t("aboutme.title2")}
-          </span>
-          <img
-            src={EarthGlobe}
-            alt="Earth Globe Icon"
-            className="w-8 inline-block pb-1.5"
-          />
+          </span> 
+          <SlGlobeAlt className="inline-block w-8 h-8 mb-2" />
           {t("aboutme.title3")}
         </h1>
         <div className="mb-6">
@@ -33,7 +30,9 @@ export const About = () => {
         </div>
       </div>
       <div className="flex flex-col md:w-2/6 gap-8">
-        <div className="border-1 rounded-lg py-4 px-12 md:h-1/3"></div>
+        <div className="border-1 rounded-lg">
+          <MusicPlayer />
+        </div>
         <div className="border-1 rounded-lg py-4 px-12 md:h-2/3"></div>
       </div>
     </main>
