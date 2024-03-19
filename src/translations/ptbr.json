@@ -1,0 +1,34 @@
+{
+  "home": {
+    "hello": "Oi, meu nome é Isis Daron",
+    "title1": "desenvolvedora ",
+    "title2": "frontend",
+    "title3": ", estudante de ciência da computação & apaixonada por ",
+    "title4": "ux/ui ",
+    "title5": "",
+    "cvBtn": "Baixar CV!"
+  },
+  "aboutme": {
+    "Title1": "ONDE TUDO COMEÇOU",
+    "description1": "Aos 13/14 anos, meu desejo de explorar a internet me levou a criar blogs e páginas no Tumblr. Comecei a estudar HTML, CSS e web design por conta própria, buscando personalizar minhas páginas da forma mais bonita possível, mesmo sem entender totalmente o que eu estava fazendo.",
+    "title2": "O QUE FAÇO AGORA",
+    "description2.1": "Aos 19 anos, redescobri minha paixão pela tecnologia, o que me levou a ingressar em um curso de Ciência da Computação por volta de meados de 2022.",
+    "description2.2": "Atualmente, estou estagiando em Desenvolvimento de Software na Controladoria Geral do Estado de MT. Anteriormente, também fiz estágio como Desenvolvedora Front-End na Pagway. Além disso, atuo como desenvolvedora e líder de projetos de forma voluntária na InfoCorp.",
+    "title3": "QUEM SOU EU AGORA",
+    "description3": "Me considero uma pessoa criativa e apaixonada pelo que faço. Também gosto muito de passar tempo com as pessoas que amo, fazer academia, caminhadas e jogar. Procuro sempre equilibrar todas as áreas da minha vida de forma com que eu consiga dedicar tempo para tudo que eu amo."
+  },
+  "skills": {
+    "small1": "quando não estou com quem eu",
+    "small2": "amo",
+    "small3": "...",
+    "title1": "Eu gosto de",
+    "title2": "construir",
+    "title3": "coisas para a internet usando:",
+    "hover": "navegar"
+  },
+  "projects": {
+    "title1": "um",
+    "title2": "olhar",
+    "title3": "na minha galeria de projetos"
+  }
+}
