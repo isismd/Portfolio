@@ -5,7 +5,7 @@ export const About = () => {
   const { t } = useTranslation();
   return (
     <main className="flex flex-col md:flex-row w-full gap-8 mt-12">
-      <div className="border-1 rounded-lg py-4 px-4 md:px-12 md:w-3/5">
+      <div className="border-1 rounded-lg py-4 px-4 md:px-12 md:w-4/6">
         <h1 className="text-xl md:text-4xl pt-12 pb-8">
           {t("aboutme.title1")}
           <span className="inria-serif-regular-italic">
@@ -32,7 +32,7 @@ export const About = () => {
           {t("aboutme.description3")}
         </div>
       </div>
-      <div className="flex flex-col md:w-2/5 gap-8">
+      <div className="flex flex-col md:w-2/6 gap-8">
         <div className="border-1 rounded-lg py-4 px-12 md:h-1/3"></div>
         <div className="border-1 rounded-lg py-4 px-12 md:h-2/3"></div>
       </div>
