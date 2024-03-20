@@ -1,6 +1,6 @@
 {
   "home": {
-    "hello": "Oi, meu nome é Isis Daron",
+    "hello": "Oii, meu nome é Isis Daron",
     "title1": "desenvolvedora ",
     "title2": "frontend",
     "title3": ", estudante de ciência da computação & apaixonada por ",
@@ -29,11 +29,11 @@
     "title1": "Eu gosto de ",
     "title2": "construir",
     "title3": "coisas para a internet usando:",
-    "hover": "clique por ai"
+    "hover": "clique por aí"
   },
   "projects": {
-    "title1": "um ",
-    "title2": "olhar",
-    "title3": "na minha galeria de projetos"
+    "title1": "alguns ",
+    "title2": "projetos",
+    "title3": "que já fiz"
   }
 }
