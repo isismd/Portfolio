@@ -17,8 +17,8 @@ export const Header = () => {
           onClick={() => i18n.changeLanguage(lng)}
           className={
             i18n.language === lng
-              ? "border-b-2 border-emerald-200 rounded-sm"
-              : "pb-0.5 text-gray-400 "
+              ? "border-b-2 border-emerald-200 rounded-sm hover:bg-emerald-50"
+              : "pb-0.5 text-gray-400 hover:bg-emerald-50"
           }
         >
           {lngs[lng].nativeName}

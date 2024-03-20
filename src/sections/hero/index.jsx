@@ -12,7 +12,7 @@ export const Hero = () => {
         <span className="inria-serif-light-italic">{t("home.title4")}</span>
         {t("home.title5")}
       </div>
-      <button className="w-fit border-b-2 border-pink-200 p-2 rounded-lg hover:border-pink-300">
+      <button className="w-fit border-b-2 border-pink-200 p-2 pb-1 rounded-lg hover:border-pink-300 hover:bg-pink-100">
       {t("home.cvBtn")}
       </button>
     </main>

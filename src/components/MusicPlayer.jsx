@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { HeartIcon } from "../assets/icons/HeartIcon";
-import { IoPauseCircle, IoPlayCircle } from "react-icons/io5";
+import { IoPause, IoPauseCircle, IoPlay } from "react-icons/io5";
+import { FaPlay } from "react-icons/fa";
 import { NextIcon } from "../assets/icons/NextIcon";
 import { PreviousIcon } from "../assets/icons/PreviousIcon";
 import { RepeatOneIcon } from "../assets/icons/RepeatOneIcon";
@@ -61,10 +62,10 @@ export default function MusicPlayer() {
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0">
-                <h3 className="font-semibold text-foreground/90 text-lg">
+                <h3 className="font-semibold text-foreground/90 text-md">
                   Where'd All the Time Go?
                 </h3>
-                <h1 className="text-md font-medium">Dr. Dog</h1>
+                <h1 className="text-sm font-medium text-foreground/70">Dr. Dog — Shame, Shame</h1>
               </div>
               <Button
                 isIconOnly
@@ -112,7 +113,7 @@ export default function MusicPlayer() {
             radius="full"
             variant="light"
           >
-            <RepeatOneIcon className="text-foreground/80" />
+            <RepeatOneIcon className="text-foreground/50" />
           </Button>
           <Button
             isIconOnly
@@ -120,19 +121,19 @@ export default function MusicPlayer() {
             radius="full"
             variant="light"
           >
-            <PreviousIcon className="text-zinc-800" />
+            <PreviousIcon className="text-foreground/60" />
           </Button>
           <Button
             isIconOnly
-            className="w-auto h-auto data-[hover]:bg-foreground/10 text-zinc-800"
+            className="w-auto h-auto data-[hover]:bg-foreground/10 text-foreground/60"
             radius="full"
             variant="light"
             onClick={playingButton}
           >
             {isPlaying ? (
-              <IoPauseCircle size={54} />
+              <IoPause size={25} className="m-2"/>
             ) : (
-              <IoPlayCircle size={54} />
+              <IoPlay  size={25} className="m-2" />
             )}
           </Button>
           <Button
@@ -141,7 +142,7 @@ export default function MusicPlayer() {
             radius="full"
             variant="light"
           >
-            <NextIcon className="text-zinc-800" />
+            <NextIcon className="text-foreground/60" />
           </Button>
           <Button
             isIconOnly
@@ -149,7 +150,7 @@ export default function MusicPlayer() {
             radius="full"
             variant="light"
           >
-            <ShuffleIcon className="text-foreground/80" />
+            <ShuffleIcon className="text-foreground/60" />
           </Button>
         </div>
       </CardBody>
