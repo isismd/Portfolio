@@ -1,14 +1,15 @@
 import { About } from "./about";
 import { Hero } from "./hero";
+import { Projects } from "./projects";
+import { Skills } from "./skills";
 
 export const Main = () => {
   return (
-    <main className="h-screen">
-      <div id="home"></div>
+    <main>
       <Hero />
-      <div id="about"></div>
       <About />
-      <div id="contact"></div>
+      <Skills />
+      <Projects />
     </main>
   );
 };

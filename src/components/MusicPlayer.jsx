@@ -1,24 +1,26 @@
-import React, { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
 import { HeartIcon } from "../assets/icons/HeartIcon";
-import { IoPause, IoPauseCircle, IoPlay } from "react-icons/io5";
-import { FaPlay } from "react-icons/fa";
+import { IoPause, IoPlay } from "react-icons/io5";
 import { NextIcon } from "../assets/icons/NextIcon";
 import { PreviousIcon } from "../assets/icons/PreviousIcon";
 import { RepeatOneIcon } from "../assets/icons/RepeatOneIcon";
 import { ShuffleIcon } from "../assets/icons/ShuffleIcon";
 import useSound from "use-sound";
-import Song from "../assets/Song.mp3";
+import songs from "../data/songs.json";
 
 export default function MusicPlayer() {
-  const [liked, setLiked] = React.useState(true);
-  const [isPlaying, setIsPlaying] = React.useState(false);
-  const [play, { pause, duration, sound }] = useSound(Song);
-  const [currTime, setCurrTime] = React.useState({
+  const [liked, setLiked] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentSongIndex, setCurrentSongIndex] = useState(Math.floor(Math.random() * 4));
+  const [play, { pause, duration, sound }] = useSound(
+    songs[currentSongIndex].file
+  );
+  const [seconds, setSeconds] = useState();
+  const [currTime, setCurrTime] = useState({
     min: "",
     sec: "",
   });
-  const [seconds, setSeconds] = React.useState();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,6 +47,24 @@ export default function MusicPlayer() {
     }
   };
 
+  const formatDuration = (duration) => {
+    const minutes = Math.floor(duration / 60000);
+    const seconds = ((duration % 60000) / 1000).toFixed(0);
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+   };
+
+  const nextSong = () => {
+    pause();
+    setIsPlaying(false); 
+    setCurrentSongIndex((currentSongIndex + 1) % songs.length);
+   };
+   
+   const previousSong = () => {
+    pause();
+    setIsPlaying(false);
+    setCurrentSongIndex((currentSongIndex - 1 + songs.length) % songs.length);
+   };
+   
   return (
     <Card className="border-none bg-transparent rounded-md" shadow="none">
       <CardBody>
@@ -52,20 +72,22 @@ export default function MusicPlayer() {
           <div className="col-span-6 md:col-span-4 flex flex-col w-full items-center">
             <Image
               alt="Album cover"
-              className="object-cover md:w-full rounded-md"
+              className="object-cover md:w-full rounded-md shadow-sm hover:shadow-md cursor-pointer"
               height={200}
               width={200}
               shadow="xs"
-              src="src\assets\MusicCover.png"
+              src={songs[currentSongIndex].cover}
             />
           </div>
           <div className="flex flex-col col-span-6 md:col-span-8">
             <div className="flex justify-between items-start">
               <div className="flex flex-col gap-0">
                 <h3 className="font-semibold text-foreground/90 text-md">
-                  Where'd All the Time Go?
+                  {songs[currentSongIndex].title}
                 </h3>
-                <h1 className="text-sm font-medium text-foreground/70">Dr. Dog — Shame, Shame</h1>
+                <h1 className="text-sm font-medium text-foreground/70">
+                  {songs[currentSongIndex].artist}
+                </h1>
               </div>
               <Button
                 isIconOnly
@@ -102,7 +124,7 @@ export default function MusicPlayer() {
             <p className="text-sm text-foreground/50">
               {currTime.min}:{currTime.sec}
             </p>
-            <p className="text-sm text-foreground/50">3:55</p>
+            <p className="text-sm text-foreground/50">{formatDuration(duration)}</p>
           </div>
         </div>
 
@@ -120,6 +142,7 @@ export default function MusicPlayer() {
             className="data-[hover]:bg-foreground/10"
             radius="full"
             variant="light"
+            onClick={previousSong}
           >
             <PreviousIcon className="text-foreground/60" />
           </Button>
@@ -131,9 +154,9 @@ export default function MusicPlayer() {
             onClick={playingButton}
           >
             {isPlaying ? (
-              <IoPause size={25} className="m-2"/>
+              <IoPause size={25} className="m-2" />
             ) : (
-              <IoPlay  size={25} className="m-2" />
+              <IoPlay size={25} className="m-2" />
             )}
           </Button>
           <Button
@@ -141,6 +164,7 @@ export default function MusicPlayer() {
             className="data-[hover]:bg-foreground/10"
             radius="full"
             variant="light"
+            onClick={nextSong}
           >
             <NextIcon className="text-foreground/60" />
           </Button>

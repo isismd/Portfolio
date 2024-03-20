@@ -6,31 +6,33 @@
     "title3": "developer, computer science student & ",
     "title4": "ux/ui ",
     "title5": "lover ",
-    "cvBtn": "Say hello!"
+    "cvBtn": "Download CV"
   },
   "aboutme": {
     "title1": "journey as a ",
     "title2": " web ",
     "title3": " developer",
     "subtitle1": "where all started",
-    "description1": "At 13/14 years old, my desire to explore the internet led me to create blogs and pages on Tumblr. I began studying HTML, CSS, and web design on my own, seeking to customize my pages as beautifully as possible (even without understanding what I was doing 🤭).",
+    "description1": "At 13/14 years old, my desire to explore the internet led me to create blogs and pages on Tumblr. I began studying HTML, CSS, and web design on my own, seeking to customize my pages as beautifully as possible (even without understanding what I was doing haha).",
     "subtitle2": "what i do now",
-    "description2.1": "At 19, I rediscovered my passion for technology, which led me to enroll in the Bachelor of Computer Science program around mid-2022.",
-    "description2.2": "Currently, I am interning in Software Development at CGE-MT. Previously, I also interned as a Front-End Developer at Pagway. Additionally, I volunteer as a developer and project leader at InfoCorp.",
+    "description2": "At 19, I rediscovered my passion for technology, which led me to enroll in the Bachelor of Computer Science program around mid-2022.",
+    "job1": "Currently, I am interning in Software Development at ",
+    "job2": ". Previously, I also interned as a Front-End Developer at ",
+    "job3": ". Additionally, I volunteer as a developer and project leader at ",
     "subtitle3": "who am i now",
-    "description3": "I consider myself a creative person passionate about what I do. I also enjoy spending time with loved ones, going to the gym, cooking, and gaming. I always strive to balance all areas of my life so that I can dedicate time to everything I love 🩷."
+    "description3": "I consider myself a creative person passionate about what I do. I also enjoy spending time with loved ones, going to the gym, cooking, and gaming. I always strive to balance all areas of my life so that I can dedicate time to everything I love ♡."
   },
   "skills": {
-    "small1": "when i'm not w/ my",
+    "small1": "when i'm not w/ my ",
     "small2": "loved",
     "small3": "ones...",
-    "title1": "I like to",
+    "title1": "I like to ",
     "title2": "build",
     "title3": "things for the internet using:",
     "hover": "hover around"
   },
   "projects": {
-    "title1": "a",
+    "title1": "a ",
     "title2": "glimpse",
     "title3": "into my project gallery"
   }
