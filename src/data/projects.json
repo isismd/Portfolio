@@ -1,0 +1,17 @@
+[
+    {
+      "titulo": "Melhor Preço",
+      "imagem": "src\\assets\\images\\MelhorPreco.jpg",
+      "descricao": "{{t(\"projects.melhorpreco\")}}",
+      "tags": ["ux/ui", "figma"],
+      "link": "https://www.behance.net/gallery/171653463/Design-de-App-Melhor-Preco"
+    },
+    {
+      "titulo": "Pet Adopt",
+      "imagem": "src\\assets\\images\\PetAdopt.jpg",
+      "descricao": "{{t(\"projects.petadopt\")}}",
+      "tags": ["ux/ui", "figma"],
+      "link": "https://www.behance.net/gallery/171994493/Pet-Adoption-App-Design"
+    }
+  ]
+  
