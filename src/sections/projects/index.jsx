@@ -18,18 +18,17 @@ export const Projects = () => {
       </h1>
       <div className="flex flex-col md:flex-row w-full gap-8 mt-10">
         {projetos.map((projeto, index) => (
-          <div
-            key={index}
-            className="border-1 rounded-lg mt-1 flex flex-col md:w-1/3 h-96"
-          >
-            <div className="w-full h-72 overflow-hidden rounded-t-lg">
-              <img
+          <div key={index} className=" mt-1 flex flex-col md:w-3/5 h-96">
+            <div className=" border-1 rounded-lg w-full h-80 overflow-hidden rounded-t-lg">
+              <Image
                 alt="Project Image"
                 src={projeto.imagem}
-                className="object-cover w-fit h-fit"
+                radius="none"
+                isZoomed
+                className="object-cover w-fit h-fit object-center"
               />
             </div>
-            <div className="flex flex-row items-start mt-2 justify-between px-4">
+            <div className="flex flex-row items-start mt-2 justify-between">
               <p className="mt-2 font-light text-foreground/80">
                 {t(`projects.${projeto.descricao}`)}
               </p>
@@ -43,13 +42,6 @@ export const Projects = () => {
               >
                 <PiArrowSquareOutThin className="inline-block w-10 h-10 m-2" />
               </Button>
-            </div>
-            <div className="mt-2 mx-4">
-              {projeto.tags.map((tag, index) => (
-                <Chip key={index} color="default" variant="dot" className="mr-1">
-                  {tag}
-                </Chip>
-              ))}
             </div>
           </div>
         ))}
