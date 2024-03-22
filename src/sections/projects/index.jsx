@@ -2,6 +2,7 @@ import { Button } from "@nextui-org/button";
 import { useTranslation } from "react-i18next";
 import { PiArrowSquareOutThin, PiBinocularsFill } from "react-icons/pi";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from 'swiper/modules';
 import { Image, Link } from "@nextui-org/react";
 import projetos from "../../data/projects.json";
 import "swiper/css";
@@ -24,6 +25,12 @@ export const Projects = () => {
         style={{ width: "100%" }}
         initialSlide={2}
         loop={true}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true
+        }}
+        modules={[Autoplay]}
       >
         {projetos.map((projeto, index) => (
           <SwiperSlide
