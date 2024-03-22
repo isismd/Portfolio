@@ -35,7 +35,21 @@
     "title1": "a ",
     "title2": "glimpse",
     "title3": "into my project gallery",
-    "petadopt": "aa",
-    "melhorpreco": "bb"
+    "petadopt": " UX/UI design concept for a Pet Adoption App",
+    "melhorpreco": " UX/UI app design concept for regional grocery price comparison.",
+    "sunnyside": " Challenge to build out a landing page from Frontend Mentor",
+    "tags": " Practical test to identify HTML tags from a URL and count the occurrences of each tag.",
+    "login": " Pratical test to build out a design and web aplication for a login page."
+  },
+  "contact": {
+    "small": "contact me :D",
+    "to": "to",
+    "name": "Isis Daron",
+    "email": "contato.isisdaron@gmail.com",
+    "message": "Hi, let's chat!",
+    "btn": "email me",
+    "text1": "...or ",
+    "text2": "reach me ",
+    "text3": " on social media"
   }
 }
