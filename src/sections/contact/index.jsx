@@ -9,7 +9,7 @@ export const Contact = () => {
   return (
     <section>
       <div className="mb-2 md:w-full flex flex-col md:items-end">
-        <div className="md:rotate-12 mt-16 mb-2 flex-wrap text-xs md:text-base flow-root font-semibold text-foreground/40">
+        <div className="md:rotate-12 mt-8 md:mt-16 mb-2 flex-wrap text-xs md:text-base flow-root font-semibold text-foreground/40">
           {t("contact.small")}
         </div>
       </div>

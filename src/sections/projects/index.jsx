@@ -10,7 +10,7 @@ export const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <main className="py-4 flex flex-col mt-24">
+    <main className="py-4 flex flex-col mt-8 md:mt-24">
       <h1 className="text-xl px-4 md:px-12 md:text-3xl mb-8">
         {t("projects.title1")}
         <span className="inria-serif-light-italic">{t("projects.title2")}</span>

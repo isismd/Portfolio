@@ -27,7 +27,7 @@ export default function ScrollTopBtn() {
 
   return (
     isVisible && (
-      <Button isIconOnly onClick={scrollToTop} radius="full" variant="light" className="fixed bottom-8 right-8">
+      <Button isIconOnly onClick={scrollToTop} radius="full" variant="light" className="fixed bottom-8 right-8 z-50 bg-[#f8f8f8] shadow-md">
         <HiArrowUp className="w-6 h-6 text-foreground/60" />
       </Button>
     )
