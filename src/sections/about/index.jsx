@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { TbWorld } from "react-icons/tb";
 import MusicPlayer from "../../components/MusicPlayer";
+import { IoRocket } from "react-icons/io5";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -59,7 +60,19 @@ export const About = () => {
         <div className="border-1 rounded-lg">
           <MusicPlayer />
         </div>
-        <div className="border-1 rounded-lg py-4 px-12 md:h-2/3"></div>
+        <div className="border-1 rounded-lg py-4 px-6 md:h-2/3 flex flex-col  justify-center">
+          <h1 className="text-xl md:text-xl pb-8">
+            {t("aboutme.titleSkills1")}
+            <span className="inria-serif-light-italic">
+              {t("aboutme.titleSkills2")}
+            </span>
+            <IoRocket className="inline-block w-5 h-5 mb-2 mx-2 text-purple-400" />
+            {t("aboutme.titleSkills3")}
+          </h1>
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=vue,angular,next,react,ts,pinia,vite,python,java,figma,github,gitlab&theme=light&perline=6" />
+          </a>
+        </div>
       </div>
     </main>
   );
