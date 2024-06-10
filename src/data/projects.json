@@ -1,43 +1,43 @@
 [
   {
     "titulo": "Pet Adopt ",
-    "imagem": "/src\\assets\\images\\PetAdopt.jpg",
+    "imagem": "public\\assets\\images\\PetAdopt.jpg",
     "descricao": "petadopt",
     "link": "https://www.behance.net/gallery/171994493/Pet-Adoption-App-Design"
   },
   {
     "titulo": "Login Page ",
-    "imagem": "/src\\assets\\images\\Login.png",
+    "imagem": "public\\assets\\images\\Login.png",
     "descricao": "login",
     "link": "https://github.com/isismd/login-pagina"
   },
   {
     "titulo": "Ceis",
-    "imagem": "/src\\assets\\images\\Ceis.png",
+    "imagem": "public\\assets\\images\\Ceis.png",
     "descricao": "ceis",
     "link": "https://ceis.cge.mt.gov.br/"
   },
   {
     "titulo": "Infosite ",
-    "imagem": "/src\\assets\\images\\Infosite.png",
+    "imagem": "public\\assets\\images\\Infosite.png",
     "descricao": "infosite",
     "link": "https://infocorpjr.com.br/"
   },
   {
     "titulo": "Infocorp Admin ",
-    "imagem": "/src\\assets\\images\\Admin.png",
+    "imagem": "public\\assets\\images\\Admin.png",
     "descricao": "admin",
     "link": "https://infocorpjr.com.br/"
   },
   {
     "titulo": "Normativa",
-    "imagem": "/src\\assets\\images\\Normativa.png",
+    "imagem": "public\\assets\\images\\Normativa.png",
     "descricao": "normativa",
     "link": "https://normativa.mt.gov.br/"
   },
   {
     "titulo": "Melhor Preço ",
-    "imagem": "/src\\assets\\images\\MelhorPreco.jpg",
+    "imagem": "public\\assets\\images\\MelhorPreco.jpg",
     "descricao": "melhorpreco",
     "link": "https://www.behance.net/gallery/171653463/Design-de-App-Melhor-Preco"
   }

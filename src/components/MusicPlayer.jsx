@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { Card, CardBody, Image, Button, Slider } from "@nextui-org/react";
-import { HeartIcon } from "../assets/icons/HeartIcon";
+import { HeartIcon } from "../../public/assets/icons/HeartIcon";
 import { IoPause, IoPlay } from "react-icons/io5";
-import { NextIcon } from "../assets/icons/NextIcon";
-import { PreviousIcon } from "../assets/icons/PreviousIcon";
-import { RepeatOneIcon } from "../assets/icons/RepeatOneIcon";
-import { ShuffleIcon } from "../assets/icons/ShuffleIcon";
+import { NextIcon } from "../../public/assets/icons/NextIcon";
+import { PreviousIcon } from "../../public/assets/icons/PreviousIcon";
+import { RepeatOneIcon } from "../../public/assets/icons/RepeatOneIcon";
+import { ShuffleIcon } from "../../public/assets/icons/ShuffleIcon";
 import useSound from "use-sound";
 import songs from "../data/songs.json";
 

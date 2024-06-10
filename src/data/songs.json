@@ -2,25 +2,25 @@
   {
     "title": "Where'd All the Time Go?",
     "artist": "Dr. Dog — Shame, Shame",
-    "cover": "src/assets/musics/WhereAllTheTimeGo.png",
-    "file": "/src/assets/musics/WhereAllTheTimeGo.mp3"
+    "cover": "public/assets/musics/WhereAllTheTimeGo.png",
+    "file": "public/assets/musics/WhereAllTheTimeGo.mp3"
   },
   {
     "title": "Pink + White",
     "artist": "Frank Ocean — Blonde",
-    "cover": "src/assets/musics/PinkWhite.jpeg",
-    "file": "/src/assets/musics/PinkWhite.mp3"
+    "cover": "public/assets/musics/PinkWhite.jpeg",
+    "file": "public/assets/musics/PinkWhite.mp3"
   },
   {
     "title": "Harvest Moon",
     "artist": "Neil Young — Harvest Moon",
-    "cover": "src/assets/musics/HarvestMoon.jpg",
-    "file": "/src/assets/musics/HarvestMoon.mp3"
+    "cover": "public/assets/musics/HarvestMoon.jpg",
+    "file": "public/assets/musics/HarvestMoon.mp3"
   },
   {
     "title": "Evergreen",
     "artist": "Richy Mitch & The Coal Miners — RMCM",
-    "cover": "src/assets/musics/Evergreen.jfif",
-    "file": "/src/assets/musics/Evergreen.mp3"
+    "cover": "public/assets/musics/Evergreen.jfif",
+    "file": "public/assets/musics/Evergreen.mp3"
   }
 ]

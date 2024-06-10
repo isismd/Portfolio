@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import CurriculoPT from "../../assets/pdf/Curriculo 2024 - Isis Daron.pdf"
+import CurriculoPT from "../../../public/assets/pdf/Curriculo 2024 - Isis Daron.pdf"
 export const Hero = () => {
   const { t } = useTranslation();
 
