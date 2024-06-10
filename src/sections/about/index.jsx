@@ -42,7 +42,7 @@ export const About = () => {
             </a>
             {t("aboutme.job3")}
             <a
-              href="https://www.linkedin.com/company/infocorpjr/"
+              href="https://infocorpjr.com.br/"
               target="_blank"
               className="hover:text-foreground/80 hover:decoration-solid decoration-dotted underline underline-offset-4"
             >
